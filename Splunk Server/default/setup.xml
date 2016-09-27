@@ -1,0 +1,11 @@
+<setup>
+	<block title="REST API ENDPOINT" endpoint="/configs/inputs/" entity="rest://Vericlouds_DataFetch">
+		<text> *NOTE* : Verify the link for response before you provide it here. </text>
+		
+		<input field="endpoint">
+		  <label>Enter the link</label>   <!-- this will be rendered as "Enable Schedule for foobar" -->
+		  <type>text</type>
+		</input>
+		
+	</block>
+</setup>
