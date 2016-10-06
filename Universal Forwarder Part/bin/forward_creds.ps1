@@ -25,6 +25,8 @@ add-type -TypeDefinition $resultTypeDef;
 
 add-type -AssemblyName "System.Runtime.Serialization"
 
+add-type -path $bcryptNetPath
+
 # iterating mailboxes
 $mailboxes=get-mailbox -RecipientTypeDetails UserMailbox -ResultSize Unlimited;
 
@@ -46,6 +48,6 @@ $mailboxes | foreach {
 		$md5Hash[8], $md5Hash[9], $md5Hash[10], $md5Hash[11], $md5Hash[12], $md5Hash[13], $md5Hash[14], $md5Hash[15]);
 		write-host "email: "$upn ", password-hash: "$md5HashString
 		
-		#Add-Content 'C:\forward_splunk\accounts_credentials.txt' "$upn--|--$md5HashString"
+		Add-Content 'C:\Users\Administrator\Desktop\accounts_credentials.txt' "$upn--|--$md5HashString"
 	}
 }
