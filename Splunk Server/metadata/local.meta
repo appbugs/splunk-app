@@ -1,69 +1,12 @@
-[app/ui]
-version = 6.4.3
-modtime = 1473187296.023700500
-
-[app/launcher]
-version = 6.4.3
-modtime = 1473187296.039322400
-
-[inputs/rest%3A%2F%2Frest]
-owner = admin
-version = 6.4.3
-modtime = 1473441009.398696000
-
-[indexes/vericloud_accounts]
-owner = admin
-version = 6.4.3
-modtime = 1473511265.181459900
-
-[inputs/script%3A%2F%2F%24SPLUNK_HOME%5Cetc%5Capps%5CVericloud%5Cbin%5Cforward_creds.ps1]
-owner = admin
-version = 6.4.3
-modtime = 1473511763.371306300
-
-[inputs/rest%3A%2F%2FVericloud_DataFetch]
-version = 6.4.3
-modtime = 1473872123.324291600
+[inputs/rest%3A%2F%2FVericlouds_DataFetch]
+version = 6.5.0
+modtime = 1475876175.710084900
 
 [app/install/is_configured]
-version = 6.4.3
-modtime = 1474894806.242884800
-
-[inputs/script%3A%2F%2F%24SPLUNK_HOME%5Cetc%5Capps%5CVericloud%5Cbin%5Cstatus.cmd]
-version = 6.4.3
-modtime = 1473872434.175373200
-
-[nav/default]
-version = 6.4.3
-modtime = 1473985999.912594200
-
-[inputs/monitor%3A%2F%2FC%3A%5CProgram%20Files%5CSplunk%5Cetc%5Capps%5CVericloud%5Cappserver%5Cstatic%5C%2A.txt]
-version = 6.4.3
-modtime = 1473873332.698301800
-
-[views/account_check]
-access = read : [ * ], write : [ admin ]
-export = none
-owner = admin
-version = 6.4.3
-modtime = 1474657130.562853000
-
-[views/overview]
-access = read : [ * ], write : [ admin ]
-export = none
-owner = admin
-version = 6.4.3
-modtime = 1474720098.848160400
-
-[inputs/rest%3A%2F%2FVericlouds_DataFetch]
-version = 6.4.3
-modtime = 1474944037.086325300
-
-[inputs/script%3A%2F%2F%24SPLUNK_HOME%5Cetc%5Capps%5Cvericlouds%5Cbin%5Cstatus.cmd]
-version = 6.4.3
-modtime = 1474977096.610998200
+version = 6.5.0
+modtime = 1475876175.716084700
 
 [inputs/splunktcp%3A%2F%2F9997]
 owner = admin
-version = 6.4.3
-modtime = 1474970282.511466200
+version = 6.5.0
+modtime = 1475876558.374674800
