@@ -13,7 +13,7 @@ Python and Splunk Enterprise edition need to be preinstalled.
 ### Installation
 Perform the following steps to install this app.
 
-Create a new folder “vericlouds” inside the  $SPLUNK_HOME/etc/apps/
+Create a new folder vericlouds inside the  $SPLUNK_HOME/etc/apps/
  ```sh
 $ cd $SPLUNK_HOME/etc/apps/
 $ mkdir vericlouds

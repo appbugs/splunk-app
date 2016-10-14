@@ -28,7 +28,7 @@ You need to activate forwarding as per your server details, by replacing the hos
  ```sh
 $ Splunk add forward-server <hostname/ip>:receiving-port
 ```
-Create a new folder ¡°vericlouds¡± inside the  $SPLUNK_HOME/etc/apps/
+Create a new folder vericlouds inside the  $SPLUNK_HOME/etc/apps/
  ```sh
 $ cd $SPLUNK_HOME/etc/apps/
 $ mkdir vericlouds
